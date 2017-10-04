@@ -1,0 +1,10 @@
+Supplementary material of the following paper:
+[2016] Drug-target interaction prediction via class imbalance-aware ensemble learning
+
+In particular, download the following files:
+- Additional file 3: Drug-target interaction matrix
+- Additional file 4: List of drug features
+- Additional file 5: List of target features
+
+Link:
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1377-y
