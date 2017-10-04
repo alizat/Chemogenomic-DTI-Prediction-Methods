@@ -1,0 +1,16 @@
+Link:
+http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/
+
+Files to download:
+e_admat_dgc.txt
+e_simmat_dc.txt
+e_simmat_dg.txt
+gpcr_admat_dgc.txt
+gpcr_simmat_dc.txt
+gpcr_simmat_dg.txt
+ic_admat_dgc.txt
+ic_simmat_dc.txt
+ic_simmat_dg.txt
+nr_admat_dgc.txt
+nr_simmat_dc.txt
+nr_simmat_dg.txt
