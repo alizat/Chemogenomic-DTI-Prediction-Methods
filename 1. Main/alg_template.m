@@ -36,7 +36,7 @@ end
 function Yhat=alg_np(Y,Sd,St,~,~)
 %alg_np predicts DTIs based on the Nearest Profile algorithm described in the following paper: 
 % Yoshihiro Yamanishi, Michihiro Araki, Alex Gutteridge, Wataru Honda and Minoru Kanehisa,
-% (2008) Prediction of drug–target interaction networks from the integration of chemical and genomic spaces
+% (2008) Prediction of drugâ€“target interaction networks from the integration of chemical and genomic spaces
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Nearest Profile (NP) %%%
@@ -80,7 +80,7 @@ end
 function Yhat=alg_wp(Y,Sd,St,~,~)
 %alg_wp predicts DTIs based on the Weighted Profile algorithm described in the following paper: 
 % Yoshihiro Yamanishi, Michihiro Araki, Alex Gutteridge, Wataru Honda and Minoru Kanehisa,
-% (2008) Prediction of drug–target interaction networks from the integration of chemical and genomic spaces
+% (2008) Prediction of drugâ€“target interaction networks from the integration of chemical and genomic spaces
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%% Weighted Profile (WP) %%%
@@ -107,7 +107,7 @@ end
 function Yhat=alg_rls_wnn(Y,ka,kb,~,~)
 %alg_rls_wnn predicts DTIs based on the algorithm described in the following paper: 
 % Twan van Laarhoven, Elena Marchiori,
-% (2013) Predicting drug–target interactions for new drug compounds using a
+% (2013) Predicting drugâ€“target interactions for new drug compounds using a
 %           weighted nearest neighbor profile 
 % 
 % Code below is adapted from the code available at this website:
@@ -198,8 +198,8 @@ end
 
 function y3=alg_kbmf2k(Y,Sd,St,~,~)
 %alg_kbmf2k predicts DTIs based on the algorithm described in the following paper:
-% Mehmet Gönen
-% (2012) Predicting drug–target interactions from chemical and genomic kernels using Bayesian matrix factorization
+% Mehmet GÃ¶nen
+% (2012) Predicting drugâ€“target interactions from chemical and genomic kernels using Bayesian matrix factorization
 
     %--------------------------------------------------------------------
 
@@ -634,7 +634,7 @@ function Yhat=alg_sitar(Y,Sd,St,test_ind,~)
 %  test_ind:    indices of test set instances
 %
 % OUTPUT:
-%  y3:          prediction matrix
+%  Yhat:        prediction matrix
 %
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -670,6 +670,61 @@ function Yhat=alg_sitar(Y,Sd,St,test_ind,~)
     Yhat = Y;
     Yhat(test_ind) = scores(:,2);
 
+end
+
+
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+% *********************************************************************** %
+
+
+function Yhat=alg_laprls(Y,Sd,St,~,~)
+%alg_laprls predicts DTIs based on the algorithm described in the following paper: 
+% Zheng Xia, Ling-Yun Wu, Xiaobo Zhou, Stephen TC Wong,
+% (2010) Semi-supervised drug-protein interaction prediction from heterogeneous biological spaces
+% 
+% Code adapted from supplementary material of Laarhoven 2011
+%
+% INPUT:
+%  Y:           interaction matrix
+%  Sd:          pairwise row similarities matrix
+%  St:          pairwise column similarities matrix
+%
+% OUTPUT:
+%  Yhat:        prediction matrix
+%
+
+    % Parameters as per the above paper
+    ga1 = 1;
+    gb1 = 1;
+    ga2 = 0.01;
+    gb2 = 0.01;
+    ba  = 0.3;
+    bb  = 0.3;
+
+    sa = Sd;
+    sb = St;
+    ka = Y*Y';
+    kb = Y'*Y;
+    wa = (ga1*sa + ga2*ka) / (ga1+ga2);
+    wb = (gb1*sb + gb2*kb) / (gb1+gb2);
+
+    da = diag(sum(wa));
+    db = diag(sum(wb));
+    la = da^-0.5 * (da - wa) * da^-0.5;
+    lb = db^-0.5 * (db - wb) * db^-0.5;
+
+    fa = wa / (wa + ba*la*wa) * Y;
+    fb = wb / (wb + bb*lb*wb) * Y';
+
+    Yhat = (fa+fb') / 2;
 end
 
 
