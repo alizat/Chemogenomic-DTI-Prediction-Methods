@@ -16,7 +16,7 @@ gridSearchMode = 0;   % grid search mode?
 
 % prediction method: 
 % 'np', 'wp', 'rls_wnn', 'nbi', 'kbmf2k', 'grmf', 'cmf', 'sitar'
-predictionMethods = {'np', 'wp', 'rls_wnn', 'nbi', 'kbmf2k', 'grmf', 'cmf', 'sitar'};
+predictionMethods = {'np', 'wp', 'rls_wnn', 'nbi', 'kbmf2k', 'grmf', 'cmf', 'sitar', 'laprls'};
 
 warning off
 
