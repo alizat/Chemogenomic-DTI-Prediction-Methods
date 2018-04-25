@@ -14,26 +14,28 @@ The source code is entirely written in the MATLAB programming language. Over the
 ## Alternative Online Source Codes for DTI Prediction Algorithms
 The list below consists of other links containing source codes that have been made available online along with their corresponding publications (sorted in chronological order): 
 
-* [Jacob et al.](https://academic.oup.com/bioinformatics/article/24/19/2149/247731)
-* [SVM-based BLM](http://members.cbio.mines-paristech.fr/~yyamanishi/bipartitelocal/) [[Publication](https://academic.oup.com/bioinformatics/article/25/18/2397/197654)]
-* [RLS-avg & RLS-kron](http://cs.ru.nl/~tvanlaarhoven/drugtarget2011/) [[Publication](https://academic.oup.com/bioinformatics/article/27/21/3036/216840)]
-* [KBMF2K](http://users.ics.aalto.fi/gonen/bioinfo12.php) [[Publication](https://academic.oup.com/bioinformatics/article/28/18/2304/241817)]
-* [DT-Hybrid](https://alpha.dmi.unict.it/dtweb/dthybrid.php) [[Publication](https://academic.oup.com/bioinformatics/article/29/16/2004/199066)]
-* [RLS-WNN](http://cs.ru.nl/~tvanlaarhoven/drugtarget2013/) [[Publication](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0066952)]
-* [MHL1SVM](https://sites.google.com/site/interactminhash/) [[Publication](https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-7-S6-S3)]
-* [Nanni et al.](https://www.dropbox.com/s/gv37ujz3f93h5ye/ToolProteinDrug.rar) [[Publication](https://www.sciencedirect.com/science/article/pii/S0022519314003452)]
-* [semEP](https://github.com/gpalma/semep) [[Publication](https://link.springer.com/chapter/10.1007%2F978-3-319-11964-9_9)]
-* [PSL](https://github.com/shobeir/fakhraei_tcbb2014) [[Publication](https://ieeexplore.ieee.org/document/6817596/)]
-* [PUCPI](http://admis.fudan.edu.cn/projects/pucpi.html) [[Publication](https://ieeexplore.ieee.org/document/7471459/)]
-* [GIFT](http://bioinfo.au.tsinghua.edu.cn/software/GIFT/) [[Publication](https://academic.oup.com/bioinformatics/article/31/15/2523/188618)]
-* [KronRLS-MKL](http://www.cin.ufpe.br/~acan/kronrlsmkl/) [[Publication](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0890-3)]
-* [Coelho et al.](http://bioinformatics.ua.pt/software/dtipred/) [[Publication](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005219)]
-* [RLS-KF](https://github.com/minghao2016/RLS-KF) [[Publication](https://www.sciencedirect.com/science/article/pii/S0003267016300630)]
-* [NRLMF](https://github.com/stephenliu0423/PyDTI) [[Publication](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004760)]
-* [DTINet](https://github.com/luoyunan/DTINet) [[Publication](https://www.nature.com/articles/s41467-017-00680-8)]
-* [DeepWalk](https://github.com/zongnansu1982/drug-target-prediction) [[Publication](https://academic.oup.com/bioinformatics/article-abstract/33/15/2337/3738543?redirectedFrom=fulltext)]
-* [DeepDTIs](https://github.com/Bjoux2/DeepDTIs_DBN) [[Publication](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00618)]
-* [DNILMF](https://github.com/minghao2016/DNILMF) [[Publication](https://www.nature.com/articles/srep40376)]
+|Algorithm|Source Code|Publication|
+|---------|:---------:|----------:|
+|Jacob et al.       |[Source Code](https://academic.oup.com/bioinformatics/article/24/19/2149/247731)
+|SVM-based BLM      |[Source Code](http://members.cbio.mines-paristech.fr/~yyamanishi/bipartitelocal/)  |[Publication](https://academic.oup.com/bioinformatics/article/25/18/2397/197654)|
+|RLS-avg & RLS-kron |[Source Code](http://cs.ru.nl/~tvanlaarhoven/drugtarget2011/)                      |[Publication](https://academic.oup.com/bioinformatics/article/27/21/3036/216840)|
+|KBMF2K             |[Source Code](http://users.ics.aalto.fi/gonen/bioinfo12.php)                       |[Publication](https://academic.oup.com/bioinformatics/article/28/18/2304/241817)|
+|DT-Hybrid          |[Source Code](https://alpha.dmi.unict.it/dtweb/dthybrid.php)                       |[Publication](https://academic.oup.com/bioinformatics/article/29/16/2004/199066)|
+|RLS-WNN            |[Source Code](http://cs.ru.nl/~tvanlaarhoven/drugtarget2013/)                      |[Publication](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0066952)|
+|MHL1SVM            |[Source Code](https://sites.google.com/site/interactminhash/)                      |[Publication](https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-7-S6-S3)|
+|Nanni et al.       |[Source Code](https://www.dropbox.com/s/gv37ujz3f93h5ye/ToolProteinDrug.rar)       |[Publication](https://www.sciencedirect.com/science/article/pii/S0022519314003452)|
+|semEP              |[Source Code](https://github.com/gpalma/semep)                                     |[Publication](https://link.springer.com/chapter/10.1007%2F978-3-319-11964-9_9)|
+|PSL                |[Source Code](https://github.com/shobeir/fakhraei_tcbb2014)                        |[Publication](https://ieeexplore.ieee.org/document/6817596/)|
+|PUCPI              |[Source Code](http://admis.fudan.edu.cn/projects/pucpi.html)                       |[Publication](https://ieeexplore.ieee.org/document/7471459/)|
+|GIFT               |[Source Code](http://bioinfo.au.tsinghua.edu.cn/software/GIFT/)                    |[Publication](https://academic.oup.com/bioinformatics/article/31/15/2523/188618)|
+|KronRLS-MKL        |[Source Code](http://www.cin.ufpe.br/~acan/kronrlsmkl/)                            |[Publication](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0890-3)|
+|Coelho et al.      |[Source Code](http://bioinformatics.ua.pt/software/dtipred/)                       |[Publication](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005219)|
+|RLS-KF             |[Source Code](https://github.com/minghao2016/RLS-KF)                               |[Publication](https://www.sciencedirect.com/science/article/pii/S0003267016300630)|
+|NRLMF              |[Source Code](https://github.com/stephenliu0423/PyDTI)                             |[Publication](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004760)|
+|DTINet             |[Source Code](https://github.com/luoyunan/DTINet)                                  |[Publication](https://www.nature.com/articles/s41467-017-00680-8)|
+|DeepWalk           |[Source Code](https://github.com/zongnansu1982/drug-target-prediction)             |[Publication](https://academic.oup.com/bioinformatics/article-abstract/33/15/2337/3738543?redirectedFrom=fulltext)|
+|DeepDTIs           |[Source Code](https://github.com/Bjoux2/DeepDTIs_DBN)                              |[Publication](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00618)|
+|DNILMF             |[Source Code](https://github.com/minghao2016/DNILMF)                               |[Publication](https://www.nature.com/articles/srep40376)|
 
 
 ## Web Servers
