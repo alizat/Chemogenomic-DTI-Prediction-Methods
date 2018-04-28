@@ -6,10 +6,11 @@ This repository has been initially established to hold the source code used for 
 
 **[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey](https://doi.org/10.1093/bib/bby002)**  
 Briefings in Bioinformatics  
-*Ali Ezzat, Min Wu, Xiao-Li Li, and Chee-Keong Kwoh*
+*Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh*
 
 The source code is entirely written in the MATLAB programming language. Over the next few months, it is our intention to regularly add source codes for more DTI prediction algorithms, especially those that were not released in their respective papers. Stay tuned!
 
+----
 
 ## Alternative Online Source Codes for DTI Prediction Algorithms
 The list below consists of other links containing source codes that have been made available online along with their corresponding publications (sorted in chronological order): 
@@ -37,6 +38,7 @@ The list below consists of other links containing source codes that have been ma
 |DeepDTIs           |[Source Code](https://github.com/Bjoux2/DeepDTIs_DBN)                              |[Publication](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00618)|
 |DNILMF             |[Source Code](https://github.com/minghao2016/DNILMF)                               |[Publication](https://www.nature.com/articles/srep40376)|
 
+----
 
 ## Web Servers
 Following is a list of online DTI prediction servers:
@@ -51,6 +53,7 @@ Following is a list of online DTI prediction servers:
 * [SuperPred](http://prediction.charite.de/)
 * [SwissTargetPrediction](http://www.swisstargetprediction.ch/)
 
+----
 
 ## Databases
 Below is a list of databases that have previously been used in efforts pertaining to drug-target interaction prediction and, more generally, drug discovery. This list was compiled  with the help of [this paper](https://academic.oup.com/bib/article-abstract/17/4/696/2240330).
@@ -78,3 +81,10 @@ Below is a list of databases that have previously been used in efforts pertainin
 * [TDR (Tropical Disease Research) Targets](http://tdrtargets.org/)
 * [TTD: Therapeutic Target Database](https://db.idrblab.org/ttd/)
 * [ZINC](http://zinc.docking.org/)
+
+For more data sources that are used in drug discovery in general (and not just DTI prediction), please refer to *Table 2* of the following paper:
+
+**[Toward better drug repositioning: prioritizing and integrating existing methods into efficient pipelines](https://doi.org/10.1016/j.drudis.2013.11.005)**  
+Drug Discovery Today  
+*Guangxu Jin, Stephen T.C. Wong*
+
