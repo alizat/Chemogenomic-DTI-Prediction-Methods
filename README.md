@@ -4,7 +4,7 @@
 ## About this repository
 This repository has been initially established to hold the source code used for conducting the experiments explained in the following paper:
 
-**[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey](https://doi.org/10.1093/bib/bby002)**  
+**[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey [2018]](https://doi.org/10.1093/bib/bby002)**  
 Briefings in Bioinformatics  
 *Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh*
 
@@ -37,6 +37,8 @@ The list below consists of other links containing source codes that have been ma
 |DeepWalk           |[Source Code](https://github.com/zongnansu1982/drug-target-prediction)             |[Publication](https://academic.oup.com/bioinformatics/article-abstract/33/15/2337/3738543?redirectedFrom=fulltext)|
 |DeepDTIs           |[Source Code](https://github.com/Bjoux2/DeepDTIs_DBN)                              |[Publication](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00618)|
 |DNILMF             |[Source Code](https://github.com/minghao2016/DNILMF)                               |[Publication](https://www.nature.com/articles/srep40376)|
+|GRMF               |[Source Code](http://www.comp.nus.edu.sg/~lixl/GRMF/index.html)                    |[Publication](https://doi.org/10.1109/TCBB.2016.2530062)|
+
 
 ----
 
@@ -84,7 +86,65 @@ Below is a list of databases that have previously been used in efforts pertainin
 
 For more data sources that are used in drug discovery in general (and not just DTI prediction), please refer to *Table 2* of the following paper:
 
-**[Toward better drug repositioning: prioritizing and integrating existing methods into efficient pipelines](https://doi.org/10.1016/j.drudis.2013.11.005)**  
+**[Toward better drug repositioning: prioritizing and integrating existing methods into efficient pipelines [2014]](https://doi.org/10.1016/j.drudis.2013.11.005)**  
 Drug Discovery Today  
 *Guangxu Jin, Stephen T.C. Wong*
+
+----
+
+## Datasets
+
+Listed below are datasets that have been compiled by other researchers and used in DTI prediction efforts.
+
+|Dataset|Link|Publication|
+|-------|:---------:|----------:|
+|Yamanishi et al., 2008 |[Download Link](http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/)                               |[Publication](https://doi.org/10.1093/bioinformatics/btn162) |
+|Yamanishi et al., 2010 |[Download Link](http://members.cbio.mines-paristech.fr/~yyamanishi/pharmaco/)                        |[Publication](https://doi.org/10.1093/bioinformatics/btq176) |
+|Tabei et al., 2012     |[Download Link](http://members.cbio.mines-paristech.fr/~yyamanishi/l1binary/)                        |[Publication](https://doi.org/10.1093/bioinformatics/bts412) |
+|Tabei et al., 2013     |[Download Link](https://sites.google.com/site/interactminhash/)                                      |[Publication](https://doi.org/10.1186/1752-0509-7-S6-S3)     |
+|Xiao et al., 2013a     |[Download Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072234)            |[Publication](https://doi.org/10.1371/journal.pone.0072234)  |
+|Xiao et al., 2013b     |[Download Link](http://www.sciencedirect.com/science/article/pii/S0022519313003871)                  |[Publication](https://doi.org/10.1016/j.jtbi.2013.08.013)    |
+|Min et al., 2013       |[Download Link](https://www.hindawi.com/journals/bmri/2013/701317/sup/)                              |[Publication](http://dx.doi.org/10.1155/2013/701317)         |
+|Fan et al., 2014       |[Download Link](http://www.mdpi.com/1422-0067/15/3/4915#supplementary)                               |[Publication](https://doi.org/10.3390/ijms15034915)          |
+|Nanni et al., 2014     |[Download Link](https://www.dropbox.com/s/gv37ujz3f93h5ye/ToolProteinDrug.rar)                       |[Publication](https://doi.org/10.1016/j.jtbi.2014.06.008)    |
+|Ezzat et al., 2016     |[Download Link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1377-y#Sec2) |[Publication](https://doi.org/10.1186/s12859-016-1377-y)     |
+|Cheng et al., 2016     |[Download Link](http://admis.fudan.edu.cn/projects/pucpi.html)                                       |[Publication](https://doi.org/10.1109/TCBB.2016.2570211)     |
+|Nascimento et al., 2016|[Download Link](http://www.cin.ufpe.br/~acan/kronrlsmkl/)                                            |[Publication](https://doi.org/10.1186/s12859-016-0890-3)     |
+|Coelho et al., 2016    |[Download Link](http://bioinformatics.ua.pt/software/dtipred/)                                       |[Publication](https://doi.org/10.1371/journal.pcbi.1005219)  |
+|Zong et al., 2017      |[Download Link](https://github.com/zongnansu1982/drug-target-prediction)                             |[Publication](https://doi.org/10.1093/bioinformatics/btx160) |
+|Wen at al., 2017       |[Download Link](https://github.com/Bjoux2/DeepDTIs_DBN)                                              |[Publication](https://doi.org/10.1021/acs.jproteome.6b00618) |
+
+----
+
+## Surveys
+
+Following are a list of surveys on DTI prediction that have been published over the years. Note that some of these surveys contain alternative source codes for the DTI prediction algorithms being surveyed.
+
+**[Similarity-based machine learning methods for predicting drug-target interactions - a brief review [2013]](https://doi.org/10.1093/bib/bbt056)**  
+Briefings in Bioinformatics  
+*Hao Ding, Ichigaku Takigawa, Hiroshi Mamitsuka, Shanfeng Zhu*
+
+**[Toward more realistic drug–target interaction predictions [2014]](https://doi.org/10.1093/bib/bbu010)**  
+Briefings in Bioinformatics  
+*Tapio Pahikkala, Antti Airola, Sami Pietilä, Sushil Shakyawar, Agnieszka Szwajda, Jing Tang, Tero Aittokallio*
+
+**[Drug-target interaction prediction via chemogenomic space - learning-based methods [2014]](https://doi.org/10.1517/17425255.2014.950222)**  
+Expert Opinion on Drug Metabolism & Toxicology  
+*Zaynab Mousavian, Ali Masoudi-Nejad*
+
+**[Drug–target interaction prediction: databases, web servers and computational models  [2016]](https://doi.org/10.1093/bib/bbv066)**  
+Briefings in Bioinformatics  
+*Xing Chen, Chenggang Clarence Yan, Xiaotian Zhang, Xu Zhang, Feng Dai, Jian Yin, Yongdong Zhang*
+
+**[Large-Scale Prediction of Drug-Target Interaction: a Data-Centric Review [2017]](https://doi.org/10.1208/s12248-017-0092-6)**  
+The AAPS Journal, Springer  
+*Tiejun Cheng, Ming Hao, Takako Takeda, Stephen H. Bryant, Yanli Wang*
+
+**[Open-source chemogenomic data-driven algorithms for predicting drug–target interactions [2018]](https://doi.org/10.1093/bib/bby010)**  
+Briefings in Bioinformatics  
+*Ming Hao, Stephen H. Bryant, Yanli Wang*
+
+**[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey [2018]](https://doi.org/10.1093/bib/bby002)**  
+Briefings in Bioinformatics  
+*Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh*
 
