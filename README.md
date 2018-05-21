@@ -111,8 +111,10 @@ Listed below are datasets that have been compiled by other researchers and used 
 |Cheng et al., 2016     |[Download Link](http://admis.fudan.edu.cn/projects/pucpi.html)                                       |[Publication](https://doi.org/10.1109/TCBB.2016.2570211)     |
 |Nascimento et al., 2016|[Download Link](http://www.cin.ufpe.br/~acan/kronrlsmkl/)                                            |[Publication](https://doi.org/10.1186/s12859-016-0890-3)     |
 |Coelho et al., 2016    |[Download Link](http://bioinformatics.ua.pt/software/dtipred/)                                       |[Publication](https://doi.org/10.1371/journal.pcbi.1005219)  |
+|Li at al., 2016        |[Download Link](https://academic.oup.com/bioinformatics/article/32/7/1057/1743938)                   |[Publication](https://academic.oup.com/bioinformatics/article/32/7/1057/1743938) |
 |Zong et al., 2017      |[Download Link](https://github.com/zongnansu1982/drug-target-prediction)                             |[Publication](https://doi.org/10.1093/bioinformatics/btx160) |
 |Wen at al., 2017       |[Download Link](https://github.com/Bjoux2/DeepDTIs_DBN)                                              |[Publication](https://doi.org/10.1021/acs.jproteome.6b00618) |
+
 
 ----
 
