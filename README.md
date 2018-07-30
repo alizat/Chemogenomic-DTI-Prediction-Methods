@@ -8,7 +8,11 @@ This repository has been initially established to hold the source code used for 
 Briefings in Bioinformatics  
 *Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh*
 
-The source code is entirely written in the MATLAB programming language. Over the next few months, it is our intention to regularly add source codes for more DTI prediction algorithms, especially those that were not released in their respective papers. Stay tuned!
+This repository consists of two folders:
+* **"1. Main":** contains the source code that was used to generate the cross validation results displayed in the main text. The prediction methods that were compared in the main text belong to the category of *similarity-based methods*.
+* **"2. Feature-based Methods":** contains the source code that was used to generate the results displayed in the supplementary text accompanying the publication. The prediction methods involved belong to the category of *feature-based methods*.
+
+The source code is entirely written in the MATLAB programming language. In the future, it is our intention to regularly add source codes for more DTI prediction algorithms, especially those that were not released in their respective papers. Stay tuned!
 
 ----
 
