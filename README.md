@@ -80,6 +80,7 @@ Below is a list of databases that have previously been used in efforts pertainin
 * [KEGG: Kyoto Encyclopedia of Genes and Genomes](http://www.kegg.jp/)
 * [MATADOR: Manually Annotated Targets and Drugs Online Resource](http://matador.embl.de/)
 * [NRDTD: ncRNA Drug Targets Database](http://chengroup.cumt.edu.cn/NRDTD/)
+* [Open Targets](https://www.targetvalidation.org/)
 * [PDSP: Psychoactive Drug Screening Program](https://pdsp.unc.edu/)
 * [SIDER](http://sideeffects.embl.de/)
 * [STITCH: Search Tool for Interactions of Chemicals](http://stitch.embl.de/)
