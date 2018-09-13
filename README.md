@@ -1,7 +1,17 @@
 # Chemogenomic-DTI-Prediction-Methods
 
+## Table of Contents
 
-## About this repository
+* [About This Repository](#about-this-repository)
+* [Alternative Online Source Codes for DTI Prediction Algorithms](#alternative-online-source-codes-for-dti-prediction-algorithms)
+* [Web Servers](#web-servers)
+* [Databases](#databases)
+* [Datasets](#datasets)
+* [Surveys](#surveys)
+
+----
+
+## About This Repository
 This repository has been initially established to hold the source code used for conducting the experiments explained in the following paper:
 
 **[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey [2018]](https://doi.org/10.1093/bib/bby002)**  
