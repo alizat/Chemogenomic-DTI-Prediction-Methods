@@ -83,6 +83,7 @@ Below is a list of databases that have previously been used in efforts pertainin
 * [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * [DCDB: Drug Combination Database](http://www.cls.zju.edu.cn/dcdb/)
 * [DrugBank](http://drugbank.ca/)
+* [Drug Target Commons (DTC)](https://drugtargetcommons.fimm.fi/)
 * [FAERS: FDA Adverse Event Reporting System](https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm)
 * [Integrity](integrity.thomson-pharma.com)
 * [IUPHAR/BPS Guide to Pharmacology](http://www.guidetopharmacology.org/)
