@@ -52,6 +52,7 @@ The list below consists of other links containing source codes that have been ma
 |DeepDTIs           |[Source Code](https://github.com/Bjoux2/DeepDTIs_DBN)                              |[Publication](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00618)|
 |DNILMF             |[Source Code](https://github.com/minghao2016/DNILMF)                               |[Publication](https://www.nature.com/articles/srep40376)|
 |GRMF               |[Source Code](http://www.comp.nus.edu.sg/~lixl/GRMF/index.html)                    |[Publication](https://doi.org/10.1109/TCBB.2016.2530062)|
+|pairwiseMKL        |[Source Code](https://github.com/aalto-ics-kepaco/pairwiseMKL)                     |[Publication](https://doi.org/10.1093/bioinformatics/bty277)|
 
 
 ----
