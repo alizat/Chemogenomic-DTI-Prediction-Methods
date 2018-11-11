@@ -22,7 +22,7 @@ This repository consists of two folders:
 * **"1. Main":** contains the source code that was used to generate the cross validation results displayed in the main text. The prediction methods that were compared in the main text belong to the category of *similarity-based methods*.
 * **"2. Feature-based Methods":** contains the source code that was used to generate the results displayed in the supplementary text accompanying the publication. The prediction methods involved belong to the category of *feature-based methods*.
 
-The source code is entirely written in the MATLAB programming language. In the future, it is our intention to regularly add source codes for more DTI prediction algorithms, especially those that were not released in their respective papers. Stay tuned!
+The source code is entirely written in the MATLAB programming language. Whenever we get the chance, we try to keep the different sections below up-to-date. If you know a link or a resource that needs to be added below, please click on the *Issues* tab above and add an issue so that we may add it. We appreciate your support!
 
 ----
 
