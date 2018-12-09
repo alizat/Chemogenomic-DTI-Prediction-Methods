@@ -136,6 +136,21 @@ Listed below are datasets that have been compiled by other researchers and used 
 |Zong et al., 2017      |[Download Link](https://github.com/zongnansu1982/drug-target-prediction)                             |[Publication](https://doi.org/10.1093/bioinformatics/btx160) |
 |Wen at al., 2017       |[Download Link](https://github.com/Bjoux2/DeepDTIs_DBN)                                              |[Publication](https://doi.org/10.1021/acs.jproteome.6b00618) |
 
+----
+
+## Feature Extraction
+
+Following are software packages and web servers that may be used to generate descriptors for drugs and targets. Such descriptors can be used as features for use in the training of machine learning models for predicting DTIs.
+
+* [ChemCPP](http://chemcpp.sourceforge.net)
+* [RDKit](http://www.rdkit.org/)
+* [PyDPI](https://sourceforge.net/projects/pydpicao/)
+* [OpenBabel](http://openbabel.org/)
+* [Rcpi](http://bioconductor.org/packages/release/bioc/html/Rcpi.html)
+* [Rchemcpp](http://shiny.bioinf.jku.at/Analoging/)
+* [KeBABS](http://www.bioinf.jku.at/software/kebabs/)
+* [PROFEAT](http://bidd2.nus.edu.sg/cgi-bin/profeat2016/main.cgi)
+* [MORDRED](https://github.com/mordred-descriptor)
 
 ----
 
