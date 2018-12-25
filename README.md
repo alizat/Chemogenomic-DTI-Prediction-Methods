@@ -152,6 +152,7 @@ Following are software packages and web servers that may be used to generate des
 * [PROFEAT](http://bidd2.nus.edu.sg/cgi-bin/profeat2016/main.cgi)
 * [MORDRED](https://github.com/mordred-descriptor)
 * [PaDEL-Descriptor](http://yapcwsoft.com/dd/padeldescriptor/)
+* [PowerMV](https://www.niss.org/research/software/powermv)
 
 ----
 
