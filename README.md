@@ -57,6 +57,9 @@ The list below consists of other links containing source codes that have been ma
 |EnsemDT/EnsemKRR   |[Source Code](https://github.com/alizat/EnsemDT-EnsemKRR)                          |[Publication](https://doi.org/10.1016/j.ymeth.2017.05.016)|
 |Hao et al.         |[Source Code](https://github.com/minghao2016/chemogenomicAlg4DTIpred)              |[Publication](https://doi.org/10.1093/bib/bby010)|
 |pairwiseMKL        |[Source Code](https://github.com/aalto-ics-kepaco/pairwiseMKL)                     |[Publication](https://doi.org/10.1093/bioinformatics/bty277)|
+|SCMLKNN            |[Source](http://web.hku.hk/~liym1018/projects/drug/drug.html) [Code](http://www.bmlnwpu.org/us/tools/PredictingDTI_S2/METHODS.html)                 |[Publication](https://doi.org/10.1016/j.ymeth.2015.04.036)|
+|KronRLSWNNS        |[Source Code](https://github.com/hkmztrk/SMILESbasedSimilarityKernels)             |[Publication](https://doi.org/10.1186/s12859-016-0977-x)|
+|COSINE             |[Source Code](http://bioinfo.cs.uni.edu/COSINE.html)                               |[Publication](https://doi.org/10.1038/srep38860)|
 
 
 ----
