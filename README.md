@@ -9,6 +9,7 @@
 * [Datasets](#datasets)
 * [Feature Extraction](#feature-extraction)
 * [Surveys](#surveys)
+* [Publication Venues](#publication-venues)
 
 ----
 
@@ -191,4 +192,26 @@ Briefings in Bioinformatics
 **[Computational Prediction of Drug-Target Interactions using Chemogenomic Approaches: An Empirical Survey [2018]](https://doi.org/10.1093/bib/bby002)**  
 Briefings in Bioinformatics  
 *Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh*
+
+----
+
+## Publication Venues
+
+Following are some of the best conferences and journals (in my humble opinion) for publishing works related to drug-target interaction prediction.
+
+### Conferences
+
+* [Intelligent Systems for Molecular Biology (ISMB)](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology)
+* [European Conference on Computational Biology (ECCB)](https://en.wikipedia.org/wiki/European_Conference_on_Computational_Biology)
+* [Research in Computational Molecular Biology (RECOMB)](https://www.recomb.org/home)
+* [International Conference on Bioinformatics (InCoB)](https://incob.apbionet.org/)
+* [Genome Informatics Workshop (GiW)](https://www.abacbs.org/conference2019/about)
+* [Bioinformatics and Biomedicine (BIBM)](http://www.wikicfp.com/cfp/program?id=283)
+* [Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)](http://acm-bcb.org/)
+
+### Journals
+
+* [Bioinformatics](https://academic.oup.com/bioinformatics)
+* [IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)](https://www.computer.org/web/tcbb)
+* [Nature Scientific Reports](https://www.nature.com/srep/)
 
