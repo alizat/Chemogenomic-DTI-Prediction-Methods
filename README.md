@@ -208,6 +208,7 @@ Following are some of the best conferences and journals (in my humble opinion) f
 * [Genome Informatics Workshop (GiW)](https://www.abacbs.org/conference2019/about)
 * [Bioinformatics and Biomedicine (BIBM)](http://www.wikicfp.com/cfp/program?id=283)
 * [Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)](http://acm-bcb.org/)
+* [Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)](http://www.cibcb.org/)
 
 ### Journals
 
